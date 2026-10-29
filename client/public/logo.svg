@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="helpdeskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E1EA2"/>
+      <stop offset="50%" stop-color="#C654C3"/>
+      <stop offset="100%" stop-color="#ED96D7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8E1EA2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#helpdeskGrad)" filter="url(#shadow)"/>
+  <!-- Headset / Support Icon -->
+  <path d="M15 24C15 19.03 19.03 15 24 15C28.97 15 33 19.03 33 24V29C33 30.66 31.66 32 30 32H28V24H31V23.5C31 19.91 27.87 17 24 17C20.13 17 17 19.91 17 23.5V24H20V32H18C16.34 32 15 30.66 15 29V24Z" fill="#FFFFFF"/>
+  <!-- AI Sparkle in upper right -->
+  <path d="M34 10L35.2 13.8L39 15L35.2 16.2L34 20L32.8 16.2L29 15L32.8 13.8L34 10Z" fill="#FFC0DE"/>
+  <circle cx="21" cy="31" r="2" fill="#FFFFFF"/>
+  <path d="M21 33C21 34.1 21.9 35 23 35H27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>
