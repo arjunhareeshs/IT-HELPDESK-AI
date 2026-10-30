@@ -1,0 +1,55 @@
+# ==============================================================================
+# IT Helpdesk - Complete Server Requirements
+# ==============================================================================
+# Single authoritative requirements file for the backend, database, ML model,
+# AI LangChain triage agent, email processing workers, and image attachments.
+# Consolidated for: server/.venv
+# ==============================================================================
+
+# --- 1. Web Framework & Core Utilities ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+httpx>=0.27.0
+requests>=2.31.0
+
+# --- 2. Database & Migrations ---
+sqlalchemy>=2.0.30
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+alembic>=1.13.0
+
+# --- 3. Machine Learning & Transformer Classification (XLM-RoBERTa) ---
+torch>=2.2.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+sentencepiece>=0.2.0
+safetensors>=0.4.3
+accelerate>=0.30.0
+numpy>=1.26.0
+
+# --- 4. LangChain & AI Triage (Groq LLaMA-3.3-70B / ReAct Agent) ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+groq>=0.30.0
+sqlglot>=25.0.0
+
+# --- 5. Email Connection & Intake Processing ---
+aiosmtplib>=3.0.0
+email-validator>=2.1.0
+beautifulsoup4>=4.12.0
+
+# --- 6. Image & File Attachment Processing ---
+pillow>=10.2.0
+
+# --- 7. Testing & Verification ---
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+
+# --- 8. Optional Integrations ---
+# langchain-ollama>=0.2.0  # Optional: local Ollama fallback if enabled

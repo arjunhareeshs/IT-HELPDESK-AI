@@ -1,0 +1,116 @@
+:root {
+  /* Exact Terracotta & Deep Earth Palette from Reference Image */
+  --color-terracotta: #B85032;
+  --color-terracotta-dark: #9E3E24;
+  --color-terracotta-hover: #C85A3C;
+  --color-terracotta-light: #FBF0EC;
+
+  /* Harmonized Plum / Rose / Mauve / Ink tokens */
+  --color-ink: #0F172A;
+  --color-plum: #2E1610;
+  --color-mauve: #774C60;
+  --color-rose: #B85032;
+  --color-blush: #FDEEE9;
+
+  /* Metric Card Backgrounds (Exact 4 colored blocks from Reference Image) */
+  --metric-bg-1: #EB4D28;
+  --metric-bg-2: #2E1610;
+  --metric-bg-3: #1B2228;
+  --metric-bg-4: #4E1C12;
+
+  /* Sidebar Theme - Dark Executive Slate */
+  --sidebar-bg: #11161B;
+  --sidebar-text: #FFFFFF;
+  --sidebar-hover: rgba(255, 255, 255, 0.06);
+  --sidebar-active: #1C232B;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+
+  /* Page & Surface Backgrounds */
+  --surface-page: #F4F5F8;
+  --surface-panel: #FFFFFF;
+  --surface-card: #FFFFFF;
+  --surface-muted: #F8FAFC;
+  --surface-hover: #F1F5F9;
+
+  /* Text Contrast Hierarchy:
+     - On light/white backgrounds: Deep black/slate text (#0F172A)
+     - On dark backgrounds: Pure crisp white text (#FFFFFF)
+  */
+  --text-on-light: #0F172A;
+  --text-on-light-secondary: #334155;
+  --text-on-light-muted: #64748B;
+  --text-on-light-faint: #94A3B8;
+
+  --text-muted: #64748B;
+  --text-secondary: #334155;
+  --text-faint: #94A3B8;
+
+  --text-on-dark: #FFFFFF;
+  --text-on-dark-secondary: rgba(255, 255, 255, 0.90);
+  --text-on-dark-muted: rgba(255, 255, 255, 0.75);
+  --text-on-dark-faint: rgba(255, 255, 255, 0.55);
+
+  /* Borders & Dividers */
+  --border-subtle: #E2E8F0;
+  --border-strong: #CBD5E1;
+  --border-focus: #B85032;
+
+  /* Priority & Severity Badges with High-Contrast Colors */
+  --badge-critical-bg: #FEF2F2;
+  --badge-critical-text: #B91C1C;
+  --badge-critical-border: #FECACA;
+
+  --badge-high-bg: #FFF7ED;
+  --badge-high-text: #C2410C;
+  --badge-high-border: #FFEDD5;
+
+  --badge-medium-bg: #FEFCE8;
+  --badge-medium-text: #854D0E;
+  --badge-medium-border: #FEF08A;
+
+  --badge-low-bg: #EEF2FF;
+  --badge-low-text: #3730A3;
+  --badge-low-border: #E0E7FF;
+
+  --badge-unknown-bg: #F1F5F9;
+  --badge-unknown-text: #475569;
+  --badge-unknown-border: #CBD5E1;
+
+  --badge-success-bg: #F0FDF4;
+  --badge-success-text: #166534;
+  --badge-success-border: #BBF7D0;
+
+  /* Status Colors */
+  --status-success-bg: #F0FDF4;
+  --status-success-text: #166534;
+  --status-success-border: #BBF7D0;
+
+  --status-danger-bg: #FEF2F2;
+  --status-danger-text: #B91C1C;
+  --status-danger-border: #FECACA;
+
+  --status-warning-bg: #FFFBEB;
+  --status-warning-text: #B45309;
+  --status-warning-border: #FDE68A;
+
+  --status-info-bg: #EFF6FF;
+  --status-info-text: #1D4ED8;
+  --status-info-border: #BFDBFE;
+
+  /* Modern Font Stack (Geometric Clean Sans-Serif) */
+  --font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Radii */
+  --radius-panel: 14px;
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --radius-badge: 6px;
+  --radius-pill: 9999px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.07);
+  --shadow-lg: 0 12px 30px rgba(15, 23, 42, 0.10);
+  --shadow-card: 0 2px 8px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.03);
+}

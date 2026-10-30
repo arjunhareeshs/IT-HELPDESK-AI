@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:/A I  - P R O J E C T S/IT-HELPDESK/client\" && find \"C:/A I  - P R O J E C T S/IT-HELPDESK/client\" -maxdepth 2 -type f -not -path '*/node_modules/*' -not -path '*/dist/*')",
+      "Read(//c/A I - P R O J E C T S/IT-HELPDESK/**)"
+    ]
+  }
+}
